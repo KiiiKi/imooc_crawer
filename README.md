@@ -15,15 +15,19 @@
 #### promise_crawer.js（同时爬多网页）
 ```
 promise.all(  
+
 // getPageAsync通过不同url返回网页全部html
 // 将各网页的全部html放到fetchCourseArray
 // 对fetchCourseArray里的每个都做后面的Promise.then操作 
+
 ).then(function(pages){  
+
 // pages是全部的html，page是某个有面html
 // 分别filterchapters(html)来获得全部html中所需要的部分html
 // 将各页面所需部分存入coursesData
 // 对coursesData按人数排序
 // 将coursesData里的按格式printCourseInfo输出console  
+
 })  
 ```
 
